@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gigamole.library.ShadowLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:sl_shadow_angle="0"
+    app:sl_shadow_color="#9e898989"
+    app:sl_shadow_distance="0dp"
+    app:sl_shadow_radius="7dp"
+    >
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_stroke_small_corners_bg"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_item_white_gray_bg"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            >
+
+            &lt;!&ndash;<ImageView
+                android:id="@+id/imageview_option_icon"
+                android:layout_width="@dimen/four_zero_dp"
+                android:layout_height="@dimen/four_zero_dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/keyboard_pictures"
+                />&ndash;&gt;
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="复制"
+                android:textColor="#000"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_item_white_gray_bg"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            >
+
+            &lt;!&ndash;<ImageView
+                android:id="@+id/imageview_option_icon"
+                android:layout_width="@dimen/four_zero_dp"
+                android:layout_height="@dimen/four_zero_dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/keyboard_pictures"
+                />&ndash;&gt;
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="发送给朋友"
+                android:textColor="#000"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_item_white_gray_bg"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            >
+
+            &lt;!&ndash;<ImageView
+                android:id="@+id/imageview_option_icon"
+                android:layout_width="@dimen/four_zero_dp"
+                android:layout_height="@dimen/four_zero_dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/keyboard_pictures"
+                />&ndash;&gt;
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="收藏"
+                android:textColor="#000"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_item_white_gray_bg"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            >
+
+            &lt;!&ndash;<ImageView
+                android:id="@+id/imageview_option_icon"
+                android:layout_width="@dimen/four_zero_dp"
+                android:layout_height="@dimen/four_zero_dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/keyboard_pictures"
+                />&ndash;&gt;
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="提醒"
+                android:textColor="#000"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_item_white_gray_bg"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            >
+
+            &lt;!&ndash;<ImageView
+                android:id="@+id/imageview_option_icon"
+                android:layout_width="@dimen/four_zero_dp"
+                android:layout_height="@dimen/four_zero_dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/keyboard_pictures"
+                />&ndash;&gt;
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="翻译"
+                android:textColor="#000"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_item_white_gray_bg"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            >
+
+            &lt;!&ndash;<ImageView
+                android:id="@+id/imageview_option_icon"
+                android:layout_width="@dimen/four_zero_dp"
+                android:layout_height="@dimen/four_zero_dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/keyboard_pictures"
+                />&ndash;&gt;
+
+            <TextView
+                android:id="@+id/textview_option_name"
+                style="@style/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="删除"
+                android:textColor="#000"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_item_white_gray_bg"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal"
+            >
+
+            &lt;!&ndash;<ImageView
+                android:id="@+id/imageview_option_icon"
+                android:layout_width="@dimen/four_zero_dp"
+                android:layout_height="@dimen/four_zero_dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/keyboard_pictures"
+                />&ndash;&gt;
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                android:text="更多"
+                android:textColor="#000"
+                android:textSize="15dp"
+                />
+        </LinearLayout>-->
+
+        <!--<View
+            style="@style/divider_line"
+            android:layout_alignParentBottom="true"
+            />-->
+    </LinearLayout>
+</com.gigamole.library.ShadowLayout>

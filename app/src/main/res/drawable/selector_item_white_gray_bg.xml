@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/shape_gray_small_corners_bg" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/shape_white_small_corners_bg"></item>
+    
+      <!-- 这个是按下去的时候item显示背景色 -->;
+    <item android:drawable="@drawable/shape_gray_small_corners_bg" android:state_pressed="true"></item>
+    <!-- 这个是默认的item背景色 -->
+    <item android:drawable="@drawable/shape_gray_small_corners_bg" android:state_pressed="false"></item>
+
+</selector>

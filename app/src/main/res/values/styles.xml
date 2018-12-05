@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light">
+    </style>
+
+    <!-- 文本正常的显示风格-->
+    <style name="text_normal">
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+
+    <style name="pop_anim_right_bottom">
+        <item name="android:windowEnterAnimation">@anim/scale_pop_in_right_bottom</item>
+        <item name="android:windowExitAnimation">@anim/scale_pop_out_right_bottom</item>
+    </style>
+    <style name="pop_anim_left_bottom">
+        <item name="android:windowEnterAnimation">@anim/scale_pop_in_left_bottom</item>
+        <item name="android:windowExitAnimation">@anim/scale_pop_out_left_bottom</item>
+    </style>
+    <style name="pop_anim_left_top">
+        <item name="android:windowEnterAnimation">@anim/scale_pop_in_left_top</item>
+        <item name="android:windowExitAnimation">@anim/scale_pop_out_left_top</item>
+    </style>
+    <style name="pop_anim_right_top">
+        <item name="android:windowEnterAnimation">@anim/scale_pop_in_right_top</item>
+        <item name="android:windowExitAnimation">@anim/scale_pop_out_right_top</item>
+    </style>
+
+    <style name="divider_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">#e7e7e7</item>
+    </style>
+
+</resources>
